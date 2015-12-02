@@ -2,4 +2,5 @@
 ### 镜框透视旋转效果
 
 
-效果：![Rcode](http://twedding.cn/test/photo_frame/images/url.png "Rcode")
+
+![Rcode](http://twedding.cn/test/photo_frame/images/url.png "Rcode")
