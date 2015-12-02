@@ -1,0 +1,52 @@
+﻿@import "../common.less";
+
+body
+{
+    background:#000;
+}
+
+.loading
+{
+    width:100%;
+    position:relative;
+}
+    .loading img
+    {
+        position:absolute;
+        display:inline;
+        top:45%;
+        left:49%;
+    }
+
+.photo_frame
+{
+    display:none;
+    width:100%;
+    position:relative;
+    perspective:350vw;
+    perspective-origin:50% 50%;
+    -webkit-perspective:350vw;
+    -webkit-perspective-origin:50% 50%;
+}
+
+    .photo_frame ul
+    {
+        transform-style:preserve-3d;
+        -webkit-transform-style:preserve-3d;
+        -webkit-transform-origin:50% 50%;
+    }
+
+    .photo_frame li
+    {
+        position:absolute;
+        width:100%;
+        top:0;
+        left:0;
+        .transform_translateZ(50vw);
+    }
+
+p
+{
+    font-size:20px;
+    color:#fff;
+}
